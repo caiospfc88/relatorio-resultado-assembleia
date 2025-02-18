@@ -1,0 +1,2834 @@
+[
+	{
+		"dataAssembleia": "2025-01-13",
+		"grupos": [
+			{
+				"codigoGrupo": 65,
+				"tiposLance": [
+					{
+						"tipoLance": "LANCE_OFERTADO_LIVRE",
+						"lances": [
+							{
+								"id": 461,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 33.7540,
+								"codigoCota": 9,
+								"codigoRepresentante": "000912"
+							},
+							{
+								"id": 462,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 40.0000,
+								"codigoCota": 80,
+								"codigoRepresentante": "002367"
+							},
+							{
+								"id": 463,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 47.4762,
+								"codigoCota": 115,
+								"codigoRepresentante": "002190"
+							},
+							{
+								"id": 464,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 50.6250,
+								"codigoCota": 171,
+								"codigoRepresentante": "002340"
+							},
+							{
+								"id": 465,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 50.6250,
+								"codigoCota": 208,
+								"codigoRepresentante": "002340"
+							},
+							{
+								"id": 466,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 50.6250,
+								"codigoCota": 212,
+								"codigoRepresentante": "002387"
+							},
+							{
+								"id": 467,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 50.6250,
+								"codigoCota": 217,
+								"codigoRepresentante": "002387"
+							},
+							{
+								"id": 468,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 49.6800,
+								"codigoCota": 221,
+								"codigoRepresentante": "002357"
+							},
+							{
+								"id": 469,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 27.3252,
+								"codigoCota": 223,
+								"codigoRepresentante": "000902"
+							},
+							{
+								"id": 470,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 35.0000,
+								"codigoCota": 226,
+								"codigoRepresentante": "002302"
+							},
+							{
+								"id": 471,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 21.4486,
+								"codigoCota": 259,
+								"codigoRepresentante": "002192"
+							}
+						]
+					},
+					{
+						"tipoLance": "SORTEIO",
+						"lances": [
+							{
+								"id": 18,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 0.0000,
+								"codigoCota": 177
+							},
+							{
+								"id": 702,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 0.0000,
+								"codigoCota": 150,
+								"codigoRepresentante": "000001"
+							}
+						]
+					},
+					{
+						"tipoLance": "LANCE_OFERTADO_FIXO",
+						"lances": [
+							{
+								"id": 31,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 27
+							},
+							{
+								"id": 32,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 54
+							},
+							{
+								"id": 33,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 56
+							},
+							{
+								"id": 36,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 124
+							},
+							{
+								"id": 38,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 180
+							},
+							{
+								"id": 39,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 181
+							},
+							{
+								"id": 40,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 182
+							},
+							{
+								"id": 41,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 184
+							},
+							{
+								"id": 42,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 202
+							},
+							{
+								"id": 48,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 224
+							},
+							{
+								"id": 50,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 234
+							},
+							{
+								"id": 51,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 238
+							},
+							{
+								"id": 53,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 263
+							},
+							{
+								"id": 54,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 279
+							},
+							{
+								"id": 55,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 297
+							}
+						]
+					},
+					{
+						"tipoLance": "FIXO",
+						"lances": [
+							{
+								"id": 20,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 174
+							},
+							{
+								"id": 701,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 298
+							}
+						]
+					},
+					{
+						"tipoLance": "LIVRE",
+						"lances": [
+							{
+								"id": 478,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 57.8974,
+								"codigoCota": 14,
+								"codigoRepresentante": "000742"
+							},
+							{
+								"id": 697,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 25.0000,
+								"codigoCota": 300,
+								"codigoRepresentante": "000110"
+							},
+							{
+								"id": 703,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 33.0000,
+								"codigoCota": 125,
+								"codigoRepresentante": "000001"
+							}
+						]
+					}
+				]
+			},
+			{
+				"codigoGrupo": 66,
+				"tiposLance": [
+					{
+						"tipoLance": "LANCE_OFERTADO_LIVRE",
+						"lances": [
+							{
+								"id": 57,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 43.1803,
+								"codigoCota": 20
+							},
+							{
+								"id": 62,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 56
+							},
+							{
+								"id": 66,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 75
+							},
+							{
+								"id": 68,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 44.0000,
+								"codigoCota": 78
+							},
+							{
+								"id": 70,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 82
+							},
+							{
+								"id": 71,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 88
+							},
+							{
+								"id": 73,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 130
+							},
+							{
+								"id": 75,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 140
+							},
+							{
+								"id": 78,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 10.0963,
+								"codigoCota": 147
+							},
+							{
+								"id": 80,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.1939,
+								"codigoCota": 154
+							},
+							{
+								"id": 83,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 191
+							},
+							{
+								"id": 88,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 229
+							},
+							{
+								"id": 93,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 252
+							},
+							{
+								"id": 95,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 261
+							},
+							{
+								"id": 96,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 269
+							},
+							{
+								"id": 97,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 275
+							},
+							{
+								"id": 99,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 301
+							},
+							{
+								"id": 102,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 315
+							},
+							{
+								"id": 103,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 323
+							},
+							{
+								"id": 106,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 340
+							},
+							{
+								"id": 108,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 350
+							},
+							{
+								"id": 473,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 28,
+								"codigoRepresentante": "002195"
+							},
+							{
+								"id": 476,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8315,
+								"codigoCota": 236,
+								"codigoRepresentante": "002195"
+							}
+						]
+					},
+					{
+						"tipoLance": "LANCE_OFERTADO_FIXO",
+						"lances": [
+							{
+								"id": 58,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 21
+							},
+							{
+								"id": 60,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 31
+							},
+							{
+								"id": 61,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 43
+							},
+							{
+								"id": 63,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 58
+							},
+							{
+								"id": 67,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 76
+							},
+							{
+								"id": 69,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 81
+							},
+							{
+								"id": 72,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 117
+							},
+							{
+								"id": 74,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 137
+							},
+							{
+								"id": 76,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 141
+							},
+							{
+								"id": 77,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 144
+							},
+							{
+								"id": 79,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 153
+							},
+							{
+								"id": 81,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 156
+							},
+							{
+								"id": 82,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 172
+							},
+							{
+								"id": 84,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 196
+							},
+							{
+								"id": 85,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 197
+							},
+							{
+								"id": 86,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 207
+							},
+							{
+								"id": 87,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 215
+							},
+							{
+								"id": 89,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 231
+							},
+							{
+								"id": 90,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 240
+							},
+							{
+								"id": 91,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 245
+							},
+							{
+								"id": 92,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 251
+							},
+							{
+								"id": 94,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 257
+							},
+							{
+								"id": 98,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 276
+							},
+							{
+								"id": 100,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 306
+							},
+							{
+								"id": 101,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 313
+							},
+							{
+								"id": 104,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 324
+							},
+							{
+								"id": 105,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 328
+							},
+							{
+								"id": 107,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 346
+							},
+							{
+								"id": 109,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 356
+							},
+							{
+								"id": 110,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 359
+							},
+							{
+								"id": 472,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 3,
+								"codigoRepresentante": "002319"
+							},
+							{
+								"id": 474,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 63,
+								"codigoRepresentante": "000250"
+							},
+							{
+								"id": 475,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 69,
+								"codigoRepresentante": "002375"
+							}
+						]
+					},
+					{
+						"tipoLance": "FIXO",
+						"lances": [
+							{
+								"id": 24,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 102
+							}
+						]
+					},
+					{
+						"tipoLance": "LIVRE",
+						"lances": [
+							{
+								"id": 22,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 45.8300,
+								"codigoCota": 59
+							}
+						]
+					}
+				]
+			},
+			{
+				"codigoGrupo": 68,
+				"tiposLance": [
+					{
+						"tipoLance": "LANCE_OFERTADO_LIVRE",
+						"lances": [
+							{
+								"id": 115,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 52.0100,
+								"codigoCota": 26
+							},
+							{
+								"id": 122,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 49.1600,
+								"codigoCota": 50
+							},
+							{
+								"id": 123,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 39.5800,
+								"codigoCota": 62
+							},
+							{
+								"id": 126,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 54.5000,
+								"codigoCota": 72
+							},
+							{
+								"id": 127,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 50.0000,
+								"codigoCota": 75
+							},
+							{
+								"id": 133,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 43.6915,
+								"codigoCota": 116
+							},
+							{
+								"id": 134,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 53.9600,
+								"codigoCota": 117
+							},
+							{
+								"id": 161,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 60.3900,
+								"codigoCota": 226
+							},
+							{
+								"id": 165,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 50.0000,
+								"codigoCota": 261
+							},
+							{
+								"id": 171,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 54.7660,
+								"codigoCota": 286
+							},
+							{
+								"id": 173,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 52.0000,
+								"codigoCota": 293
+							},
+							{
+								"id": 175,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 55.3000,
+								"codigoCota": 309
+							},
+							{
+								"id": 177,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 56.1000,
+								"codigoCota": 322
+							},
+							{
+								"id": 186,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 51.0000,
+								"codigoCota": 372
+							},
+							{
+								"id": 187,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 58.0676,
+								"codigoCota": 374
+							},
+							{
+								"id": 192,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 67.0000,
+								"codigoCota": 388
+							}
+						]
+					},
+					{
+						"tipoLance": "SORTEIO",
+						"lances": [
+							{
+								"id": 26,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 0.0000,
+								"codigoCota": 177
+							}
+						]
+					},
+					{
+						"tipoLance": "LANCE_OFERTADO_FIXO",
+						"lances": [
+							{
+								"id": 111,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 2
+							},
+							{
+								"id": 112,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 4
+							},
+							{
+								"id": 113,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 5
+							},
+							{
+								"id": 114,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 11
+							},
+							{
+								"id": 116,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 33
+							},
+							{
+								"id": 117,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 34
+							},
+							{
+								"id": 118,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 36
+							},
+							{
+								"id": 119,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 38
+							},
+							{
+								"id": 120,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 46
+							},
+							{
+								"id": 121,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 49
+							},
+							{
+								"id": 124,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 69
+							},
+							{
+								"id": 125,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 70
+							},
+							{
+								"id": 128,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 79
+							},
+							{
+								"id": 129,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 80
+							},
+							{
+								"id": 130,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 94
+							},
+							{
+								"id": 131,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 99
+							},
+							{
+								"id": 132,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 115
+							},
+							{
+								"id": 135,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 119
+							},
+							{
+								"id": 136,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 124
+							},
+							{
+								"id": 137,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 128
+							},
+							{
+								"id": 138,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 132
+							},
+							{
+								"id": 139,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 135
+							},
+							{
+								"id": 140,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 136
+							},
+							{
+								"id": 141,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 140
+							},
+							{
+								"id": 142,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 141
+							},
+							{
+								"id": 143,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 146
+							},
+							{
+								"id": 144,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 150
+							},
+							{
+								"id": 145,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 152
+							},
+							{
+								"id": 146,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 154
+							},
+							{
+								"id": 147,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 166
+							},
+							{
+								"id": 148,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 168
+							},
+							{
+								"id": 149,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 169
+							},
+							{
+								"id": 150,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 174
+							},
+							{
+								"id": 151,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 180
+							},
+							{
+								"id": 152,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 184
+							},
+							{
+								"id": 153,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 188
+							},
+							{
+								"id": 154,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 192
+							},
+							{
+								"id": 155,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 195
+							},
+							{
+								"id": 156,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 204
+							},
+							{
+								"id": 157,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 207
+							},
+							{
+								"id": 158,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 215
+							},
+							{
+								"id": 159,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 217
+							},
+							{
+								"id": 160,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 218
+							},
+							{
+								"id": 162,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 235
+							},
+							{
+								"id": 163,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 248
+							},
+							{
+								"id": 164,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 249
+							},
+							{
+								"id": 166,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 267
+							},
+							{
+								"id": 167,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 269
+							},
+							{
+								"id": 168,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 271
+							},
+							{
+								"id": 169,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 277
+							},
+							{
+								"id": 170,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 284
+							},
+							{
+								"id": 172,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 288
+							},
+							{
+								"id": 174,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 304
+							},
+							{
+								"id": 176,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 315
+							},
+							{
+								"id": 178,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 324
+							},
+							{
+								"id": 179,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 332
+							},
+							{
+								"id": 180,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 344
+							},
+							{
+								"id": 181,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 350
+							},
+							{
+								"id": 182,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 354
+							},
+							{
+								"id": 183,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 362
+							},
+							{
+								"id": 184,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 366
+							},
+							{
+								"id": 185,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 370
+							},
+							{
+								"id": 188,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 376
+							},
+							{
+								"id": 189,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 382
+							},
+							{
+								"id": 190,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 384
+							},
+							{
+								"id": 191,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 386
+							}
+						]
+					},
+					{
+						"tipoLance": "FIXO",
+						"lances": [
+							{
+								"id": 27,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 30.0000,
+								"codigoCota": 919
+							}
+						]
+					},
+					{
+						"tipoLance": "LIVRE",
+						"lances": [
+							{
+								"id": 25,
+								"dataAssembleia": "2025-01-13",
+								"percentualLance": 413.0000,
+								"codigoCota": 177
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"dataAssembleia": "2025-01-23",
+		"grupos": [
+			{
+				"codigoGrupo": 67,
+				"tiposLance": [
+					{
+						"tipoLance": "LANCE_OFERTADO_LIVRE",
+						"lances": [
+							{
+								"id": 383,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 52
+							},
+							{
+								"id": 411,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 26.0700,
+								"codigoCota": 162
+							},
+							{
+								"id": 415,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 43.7869,
+								"codigoCota": 177
+							},
+							{
+								"id": 440,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 52.3000,
+								"codigoCota": 326
+							},
+							{
+								"id": 447,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 23.6418,
+								"codigoCota": 367
+							},
+							{
+								"id": 450,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 25.0000,
+								"codigoCota": 373
+							},
+							{
+								"id": 451,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 36.9689,
+								"codigoCota": 375
+							}
+						]
+					},
+					{
+						"tipoLance": "LANCE_OFERTADO_FIXO",
+						"lances": [
+							{
+								"id": 374,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 9
+							},
+							{
+								"id": 375,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 19
+							},
+							{
+								"id": 376,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 22
+							},
+							{
+								"id": 377,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 29
+							},
+							{
+								"id": 378,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 33
+							},
+							{
+								"id": 379,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 38
+							},
+							{
+								"id": 380,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 40
+							},
+							{
+								"id": 381,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 43
+							},
+							{
+								"id": 382,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 44
+							},
+							{
+								"id": 384,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 53
+							},
+							{
+								"id": 385,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 54
+							},
+							{
+								"id": 386,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 55
+							},
+							{
+								"id": 387,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 61
+							},
+							{
+								"id": 388,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 63
+							},
+							{
+								"id": 389,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 67
+							},
+							{
+								"id": 390,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 78
+							},
+							{
+								"id": 391,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 81
+							},
+							{
+								"id": 392,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 83
+							},
+							{
+								"id": 393,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 87
+							},
+							{
+								"id": 394,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 97
+							},
+							{
+								"id": 395,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 105
+							},
+							{
+								"id": 396,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 107
+							},
+							{
+								"id": 397,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 109
+							},
+							{
+								"id": 398,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 121
+							},
+							{
+								"id": 399,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 122
+							},
+							{
+								"id": 400,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 124
+							},
+							{
+								"id": 401,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 130
+							},
+							{
+								"id": 402,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 132
+							},
+							{
+								"id": 403,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 133
+							},
+							{
+								"id": 404,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 136
+							},
+							{
+								"id": 405,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 143
+							},
+							{
+								"id": 406,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 144
+							},
+							{
+								"id": 407,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 148
+							},
+							{
+								"id": 408,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 152
+							},
+							{
+								"id": 409,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 155
+							},
+							{
+								"id": 410,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 157
+							},
+							{
+								"id": 412,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 164
+							},
+							{
+								"id": 413,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 165
+							},
+							{
+								"id": 414,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 169
+							},
+							{
+								"id": 416,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 184
+							},
+							{
+								"id": 417,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 186
+							},
+							{
+								"id": 418,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 191
+							},
+							{
+								"id": 419,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 195
+							},
+							{
+								"id": 420,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 201
+							},
+							{
+								"id": 421,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 204
+							},
+							{
+								"id": 422,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 210
+							},
+							{
+								"id": 423,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 216
+							},
+							{
+								"id": 424,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 220
+							},
+							{
+								"id": 425,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 225
+							},
+							{
+								"id": 426,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 230
+							},
+							{
+								"id": 427,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 231
+							},
+							{
+								"id": 428,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 242
+							},
+							{
+								"id": 429,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 244
+							},
+							{
+								"id": 430,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 246
+							},
+							{
+								"id": 431,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 254
+							},
+							{
+								"id": 432,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 258
+							},
+							{
+								"id": 433,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 260
+							},
+							{
+								"id": 434,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 266
+							},
+							{
+								"id": 435,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 290
+							},
+							{
+								"id": 436,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 292
+							},
+							{
+								"id": 437,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 294
+							},
+							{
+								"id": 438,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 300
+							},
+							{
+								"id": 439,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 306
+							},
+							{
+								"id": 441,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 339
+							},
+							{
+								"id": 442,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 341
+							},
+							{
+								"id": 443,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 347
+							},
+							{
+								"id": 444,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 349
+							},
+							{
+								"id": 445,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 351
+							},
+							{
+								"id": 446,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 353
+							},
+							{
+								"id": 448,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 369
+							},
+							{
+								"id": 449,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 371
+							},
+							{
+								"id": 452,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 391
+							},
+							{
+								"id": 453,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 20.0000,
+								"codigoCota": 393
+							}
+						]
+					}
+				]
+			},
+			{
+				"codigoGrupo": 55,
+				"tiposLance": [
+					{
+						"tipoLance": "LANCE_OFERTADO_LIVRE",
+						"lances": [
+							{
+								"id": 199,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 62.0000,
+								"codigoCota": 39
+							},
+							{
+								"id": 203,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 60.0000,
+								"codigoCota": 63
+							},
+							{
+								"id": 206,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 51.3459,
+								"codigoCota": 82
+							},
+							{
+								"id": 220,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 57.0000,
+								"codigoCota": 289
+							},
+							{
+								"id": 222,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 63.1000,
+								"codigoCota": 293
+							}
+						]
+					},
+					{
+						"tipoLance": "SORTEIO",
+						"lances": [
+							{
+								"id": 12,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 0.0000,
+								"codigoCota": 10
+							}
+						]
+					},
+					{
+						"tipoLance": "LANCE_OFERTADO_FIXO",
+						"lances": [
+							{
+								"id": 200,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 46
+							},
+							{
+								"id": 201,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 47
+							},
+							{
+								"id": 202,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 53
+							},
+							{
+								"id": 204,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 72
+							},
+							{
+								"id": 205,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 80
+							},
+							{
+								"id": 207,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 95
+							},
+							{
+								"id": 208,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 97
+							},
+							{
+								"id": 209,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 115
+							},
+							{
+								"id": 210,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 127
+							},
+							{
+								"id": 211,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 142
+							},
+							{
+								"id": 212,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 152
+							},
+							{
+								"id": 213,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 171
+							},
+							{
+								"id": 214,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 177
+							},
+							{
+								"id": 215,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 183
+							},
+							{
+								"id": 216,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 185
+							},
+							{
+								"id": 217,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 212
+							},
+							{
+								"id": 218,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 227
+							},
+							{
+								"id": 219,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 277
+							},
+							{
+								"id": 221,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 291
+							},
+							{
+								"id": 454,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 5
+							},
+							{
+								"id": 455,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 7
+							},
+							{
+								"id": 456,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 21
+							},
+							{
+								"id": 457,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 27
+							},
+							{
+								"id": 458,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 28
+							},
+							{
+								"id": 693,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 29,
+								"codigoRepresentante": "000215"
+							}
+						]
+					},
+					{
+						"tipoLance": "LIVRE",
+						"lances": [
+							{
+								"id": 2,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 73.8765,
+								"codigoCota": 20
+							},
+							{
+								"id": 3,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 73.8654,
+								"codigoCota": 23
+							}
+						]
+					}
+				]
+			},
+			{
+				"codigoGrupo": 56,
+				"tiposLance": [
+					{
+						"tipoLance": "LANCE_OFERTADO_LIVRE",
+						"lances": [
+							{
+								"id": 226,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 52.0000,
+								"codigoCota": 20
+							},
+							{
+								"id": 250,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 70.0000,
+								"codigoCota": 91
+							},
+							{
+								"id": 256,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 23.3843,
+								"codigoCota": 110
+							},
+							{
+								"id": 257,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 27.5175,
+								"codigoCota": 113
+							},
+							{
+								"id": 262,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 70.0000,
+								"codigoCota": 134
+							},
+							{
+								"id": 275,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 46.0000,
+								"codigoCota": 166
+							},
+							{
+								"id": 277,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 62.2500,
+								"codigoCota": 176
+							},
+							{
+								"id": 278,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 63.0000,
+								"codigoCota": 178
+							},
+							{
+								"id": 288,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 46.0000,
+								"codigoCota": 208
+							},
+							{
+								"id": 289,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 37.0000,
+								"codigoCota": 210
+							},
+							{
+								"id": 293,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 52.0000,
+								"codigoCota": 237
+							},
+							{
+								"id": 296,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 52.0000,
+								"codigoCota": 253
+							},
+							{
+								"id": 302,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 67.0000,
+								"codigoCota": 266
+							},
+							{
+								"id": 307,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 54.7233,
+								"codigoCota": 286
+							},
+							{
+								"id": 329,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 52.0000,
+								"codigoCota": 417
+							},
+							{
+								"id": 332,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 56.7000,
+								"codigoCota": 458
+							},
+							{
+								"id": 341,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 52.0000,
+								"codigoCota": 530
+							},
+							{
+								"id": 346,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 68.0000,
+								"codigoCota": 570
+							},
+							{
+								"id": 359,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 63.0000,
+								"codigoCota": 697
+							},
+							{
+								"id": 365,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 56.7000,
+								"codigoCota": 730
+							},
+							{
+								"id": 366,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 32.0000,
+								"codigoCota": 739
+							},
+							{
+								"id": 367,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 55.5000,
+								"codigoCota": 743
+							}
+						]
+					},
+					{
+						"tipoLance": "LANCE_OFERTADO_FIXO",
+						"lances": [
+							{
+								"id": 223,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 5
+							},
+							{
+								"id": 224,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 10
+							},
+							{
+								"id": 225,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 12
+							},
+							{
+								"id": 227,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 22
+							},
+							{
+								"id": 228,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 25
+							},
+							{
+								"id": 229,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 26
+							},
+							{
+								"id": 230,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 27
+							},
+							{
+								"id": 231,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 28
+							},
+							{
+								"id": 232,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 31
+							},
+							{
+								"id": 233,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 36
+							},
+							{
+								"id": 234,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 42
+							},
+							{
+								"id": 235,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 44
+							},
+							{
+								"id": 236,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 45
+							},
+							{
+								"id": 237,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 49
+							},
+							{
+								"id": 238,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 51
+							},
+							{
+								"id": 239,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 59
+							},
+							{
+								"id": 240,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 60
+							},
+							{
+								"id": 241,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 62
+							},
+							{
+								"id": 242,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 63
+							},
+							{
+								"id": 243,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 64
+							},
+							{
+								"id": 244,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 66
+							},
+							{
+								"id": 245,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 70
+							},
+							{
+								"id": 246,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 71
+							},
+							{
+								"id": 247,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 72
+							},
+							{
+								"id": 248,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 73
+							},
+							{
+								"id": 249,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 75
+							},
+							{
+								"id": 251,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 92
+							},
+							{
+								"id": 252,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 99
+							},
+							{
+								"id": 253,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 100
+							},
+							{
+								"id": 254,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 103
+							},
+							{
+								"id": 255,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 108
+							},
+							{
+								"id": 258,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 114
+							},
+							{
+								"id": 259,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 121
+							},
+							{
+								"id": 260,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 130
+							},
+							{
+								"id": 261,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 133
+							},
+							{
+								"id": 263,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 137
+							},
+							{
+								"id": 264,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 140
+							},
+							{
+								"id": 265,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 141
+							},
+							{
+								"id": 266,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 145
+							},
+							{
+								"id": 267,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 147
+							},
+							{
+								"id": 268,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 150
+							},
+							{
+								"id": 269,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 152
+							},
+							{
+								"id": 270,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 155
+							},
+							{
+								"id": 271,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 156
+							},
+							{
+								"id": 272,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 157
+							},
+							{
+								"id": 273,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 158
+							},
+							{
+								"id": 274,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 162
+							},
+							{
+								"id": 276,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 173
+							},
+							{
+								"id": 279,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 183
+							},
+							{
+								"id": 280,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 185
+							},
+							{
+								"id": 281,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 187
+							},
+							{
+								"id": 282,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 194
+							},
+							{
+								"id": 283,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 196
+							},
+							{
+								"id": 284,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 199
+							},
+							{
+								"id": 285,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 200
+							},
+							{
+								"id": 286,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 202
+							},
+							{
+								"id": 287,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 205
+							},
+							{
+								"id": 290,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 212
+							},
+							{
+								"id": 291,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 216
+							},
+							{
+								"id": 292,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 218
+							},
+							{
+								"id": 294,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 238
+							},
+							{
+								"id": 295,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 240
+							},
+							{
+								"id": 297,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 255
+							},
+							{
+								"id": 298,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 256
+							},
+							{
+								"id": 299,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 257
+							},
+							{
+								"id": 300,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 261
+							},
+							{
+								"id": 301,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 262
+							},
+							{
+								"id": 303,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 276
+							},
+							{
+								"id": 304,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 281
+							},
+							{
+								"id": 305,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 282
+							},
+							{
+								"id": 306,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 284
+							},
+							{
+								"id": 308,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 292
+							},
+							{
+								"id": 309,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 295
+							},
+							{
+								"id": 310,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 299
+							},
+							{
+								"id": 311,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 304
+							},
+							{
+								"id": 312,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 306
+							},
+							{
+								"id": 313,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 312
+							},
+							{
+								"id": 314,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 313
+							},
+							{
+								"id": 315,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 323
+							},
+							{
+								"id": 316,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 327
+							},
+							{
+								"id": 317,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 328
+							},
+							{
+								"id": 318,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 336
+							},
+							{
+								"id": 319,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 340
+							},
+							{
+								"id": 320,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 344
+							},
+							{
+								"id": 321,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 346
+							},
+							{
+								"id": 322,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 353
+							},
+							{
+								"id": 323,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 358
+							},
+							{
+								"id": 324,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 360
+							},
+							{
+								"id": 325,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 362
+							},
+							{
+								"id": 326,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 368
+							},
+							{
+								"id": 327,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 383
+							},
+							{
+								"id": 328,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 402
+							},
+							{
+								"id": 330,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 420
+							},
+							{
+								"id": 331,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 438
+							},
+							{
+								"id": 333,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 461
+							},
+							{
+								"id": 334,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 471
+							},
+							{
+								"id": 335,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 490
+							},
+							{
+								"id": 336,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 495
+							},
+							{
+								"id": 337,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 502
+							},
+							{
+								"id": 338,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 513
+							},
+							{
+								"id": 339,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 522
+							},
+							{
+								"id": 340,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 525
+							},
+							{
+								"id": 342,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 532
+							},
+							{
+								"id": 343,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 540
+							},
+							{
+								"id": 344,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 560
+							},
+							{
+								"id": 345,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 567
+							},
+							{
+								"id": 347,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 588
+							},
+							{
+								"id": 348,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 591
+							},
+							{
+								"id": 349,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 600
+							},
+							{
+								"id": 350,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 607
+							},
+							{
+								"id": 351,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 616
+							},
+							{
+								"id": 352,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 629
+							},
+							{
+								"id": 353,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 632
+							},
+							{
+								"id": 354,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 645
+							},
+							{
+								"id": 355,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 647
+							},
+							{
+								"id": 356,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 651
+							},
+							{
+								"id": 357,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 665
+							},
+							{
+								"id": 358,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 667
+							},
+							{
+								"id": 360,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 699
+							},
+							{
+								"id": 361,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 705
+							},
+							{
+								"id": 362,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 708
+							},
+							{
+								"id": 363,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 719
+							},
+							{
+								"id": 364,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 723
+							},
+							{
+								"id": 368,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 745
+							},
+							{
+								"id": 369,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 976
+							},
+							{
+								"id": 370,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 30.0000,
+								"codigoCota": 997
+							}
+						]
+					},
+					{
+						"tipoLance": "LIVRE",
+						"lances": [
+							{
+								"id": 28,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 78.0000,
+								"codigoCota": 1
+							}
+						]
+					}
+				]
+			},
+			{
+				"codigoGrupo": 63,
+				"tiposLance": [
+					{
+						"tipoLance": "LANCE_OFERTADO_LIVRE",
+						"lances": [
+							{
+								"id": 371,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 17.6916,
+								"codigoCota": 17
+							},
+							{
+								"id": 372,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 17.6916,
+								"codigoCota": 106
+							},
+							{
+								"id": 373,
+								"dataAssembleia": "2025-01-23",
+								"percentualLance": 17.0000,
+								"codigoCota": 393
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
