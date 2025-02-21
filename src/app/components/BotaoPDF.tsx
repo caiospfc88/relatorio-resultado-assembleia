@@ -79,58 +79,6 @@ export default function BotaoPDF() {
           }
         ];
     
-       /* data.forEach((assembleia) => {
-          
-    const subContent = []
-
-          assembleia.grupos.forEach((grupo) => {
-            content.push({ text: `Grupo - ${grupo.codigoGrupo}`, style: "subheader" });
-    
-            grupo.tiposLance.forEach((tipo) => {
-              content.push({ text: `Tipo de Lance: ${tipo.tipoLance}`, style: "boldText" });
-    
-              const tableBody = [
-                [`GRUPO - ${grupo.codigoGrupo}`, "QUANTIDADE", "CONTEMPLADOS", `DATA ASSEMBLEIA: ${formatarDataPtBr(assembleia.dataAssembleia)}`],
-                ...tipo.lances.map((lance) => [
-                  lance.dataAssembleia,
-                  `${lance.percentualLance.toFixed(2)}%`,
-                  lance.codigoCota,
-                  lance.codigoRepresentante || "-",
-                ]),
-              ];
-    
-              content.push({
-                table: { body: tableBody },
-                layout: "lightHorizontalLines",
-                margin: [0, 5, 0, 15],
-              });
-            });
-          });
-        });
-    
-        const docDefinition = {
-          content,
-          styles: {
-            header: { fontSize: 18, bold: true, margin: [0, 0, 0, 0] },
-            subheader: { fontSize: 16, bold: true, margin: [0, 10, 0, 5] },
-            boldText: { fontSize: 14, bold: true, margin: [0, 5, 0, 2] },
-          },
-          pageMargins: [25, 15, 15, 40], // Ajusta margem inferior para o footer
-          footer: function (currentPage, pageCount) {
-            return {
-              margin: [25, 5, 15, 0], // Ajusta a posição do rodapé
-              layout: "noBorders",
-              table: {
-                widths: ["100%"],
-                body: [
-                  [{ canvas: [{ type: "line", x1: 0, y1: 0, x2: 542, y2: 0, lineWidth: 1 }] }], // Linha superior
-                  [{ text: `Página ${currentPage} de ${pageCount}`, alignment: "right", margin: [0, 5, 15, 0], fontSize: 8 }],
-                ],
-              },
-            };
-          },
-        };*/
-
         const docDefinition = {
           content: [
             {
@@ -227,7 +175,7 @@ export default function BotaoPDF() {
               layout: {
                 // Linhas horizontais apenas no topo e na base
                 hLineWidth: function(i, node) {
-                  return (i === 0 || i === node.table.body.length) ? 1 : 0.5; // Primeira e última linha mais grossa
+                  return (i === 0 || i === node.table.body.length) ? 1 : 0.3; // Primeira e última linha mais grossa
                 },
                 // Linhas verticais apenas nas laterais
                 vLineWidth: function(i, node) {
@@ -235,11 +183,11 @@ export default function BotaoPDF() {
                 },
                 // Cor das linhas horizontais
                 hLineColor: function(i, node) {
-                  return '#133483'; // Azul escuro
+                  return 'black'; 
                 },
                 // Cor das linhas verticais
                 vLineColor: function(i, node) {
-                  return '#133483'; // Azul escuro
+                  return 'black'; 
                 },
                 // Define o espaçamento interno das células
                 paddingLeft: function(i, node) { return 4; },
@@ -288,6 +236,7 @@ export default function BotaoPDF() {
         border: "none",
         borderRadius: "5px",
         cursor: "pointer",
+        margin: "15px"
       }}
     >
       Baixar PDF
