@@ -65,6 +65,10 @@ export default function BotaoPDFJspdf() {
     // Itera sobre os dados para criar as tabelas para cada grupo
     data.forEach((assembleia) => {
       assembleia.grupos.forEach((grupo, indexGrupo) => {
+        if (indexGrupo > 0) {
+          doc.addPage();
+          yPosition = 15;
+        }
         // Cabeçalho da tabela
         const head = [
           [
@@ -84,21 +88,38 @@ export default function BotaoPDFJspdf() {
           let vendedores = "";
   
           tipo.lances.forEach((lance: any, index: number) => {
-            const num = index + 1;
+            if (tipo.tipoLance == "LANCE_OFERTADO_LIVRE" && index < tipo.lances.length - 1){
+              const num = index + 1;
             // Adiciona a linha de contemplados (com espaçamento especial se o número for menor que 10)
             contemplados += num < 10
-              ? `${num}º\u00A0 - ${lance.percentualLance.toFixed(4)} %\n`
+              ? `0${num}º - ${lance.percentualLance.toFixed(4)} %\n`
               : `${num}º - ${lance.percentualLance.toFixed(4)} %\n`;
             if (lance.codigoRepresentante) {
               vendedores += `Vendedor: ${lance.codigoRepresentante}\n`;
             }
+            } else {
+              const num = index + 1;
+            // Adiciona a linha de contemplados (com espaçamento especial se o número for menor que 10)
+            contemplados += num < 10
+              ? `0${num}º - ${lance.percentualLance.toFixed(4)} %\n`
+              : `${num}º - ${lance.percentualLance.toFixed(4)} %\n`;
+            if (lance.codigoRepresentante) {
+              vendedores += `Vendedor: ${lance.codigoRepresentante}\n`;
+            }
+            }
+            
           });
   
           // Remove quebras de linha extras
           contemplados = contemplados.trim();
           vendedores = vendedores.trim();
-  
-          body.push([tipo.tipoLance.replace(/_+/g, " "), quantidade.toString(), contemplados, vendedores]);
+          if (tipo.tipoLance == "LANCE_OFERTADO_FIXO") {
+            console.log('temp',tipo)
+            body.push([tipo.tipoLance.replace(/_+/g, " "), quantidade.toString(), tipo.lances[0].percentualLance.toFixed(4) + " %"]);
+          } else {
+            body.push([tipo.tipoLance.replace(/_+/g, " "), quantidade.toString(), contemplados, vendedores]);
+          }
+          
         });
   
         // Adiciona a tabela utilizando o autotable
@@ -122,12 +143,15 @@ export default function BotaoPDFJspdf() {
           },
           theme: "grid",
           didDrawCell: (data) => {
+            
             const { cell, row, column, table } = data;
             const xInicio = cell.x;
             const xFim = cell.x + cell.width;
             const yTopo = cell.y;
             const yBaixo = cell.y + cell.height;
-  
+            if (data.row.raw[0] === "LANCE OFERTADO LIVRE") {
+              data.cell.styles.fillColor = "#D3D3D3"
+            }
             doc.setDrawColor(0); // Cor preta para as linhas
             doc.setLineWidth(0.2);
   
