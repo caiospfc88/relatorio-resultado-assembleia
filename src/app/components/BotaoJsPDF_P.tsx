@@ -10,7 +10,7 @@ export function formatarDataPtBr(data: string) {
   return `${dia}/${mes}/${ano}`;
 }
 
-export default function BotaoPDFJspdf() {
+export default function BotaoPDF_P() {
   const [logoImage, setLogoImage] = useState<string | null>(null);
   const [data, setData] = useState<any[]>([]);
   const today = new Date().toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" });
@@ -43,6 +43,35 @@ export default function BotaoPDFJspdf() {
     });
   };
 
+  // Função para adicionar o cabeçalho
+  const addHeader = (doc: jsPDF, grupo: string, dt_assembleia: string) => {
+    const pageWidth = doc.internal.pageSize.getWidth();
+
+    // Adiciona logo
+    doc.addImage(logoImage, "JPEG", 45, 15, 150, 40);
+    
+    // Título
+    doc.setFont("helvetica", "bold");
+    doc.setFontSize(12);
+    doc.text("RESULTADO DE ASSEMBLEIA", 410,80, {align: "center"});
+    
+    // Informações do usuário e data
+    doc.setFontSize(7);
+    doc.setFont("helvetica", "normal");
+    doc.text(`USUÁRIO: FULANO`, pageWidth - 50, 25, { align: "right" });
+    doc.text(`DATA: ${today.replace(/,+/g, "")}`, pageWidth - 50, 35, { align: "right" });
+    doc.setFontSize(10);
+    doc.setFont("helvetica", "bold");
+    doc.text(`GRUPO: ${grupo}`, pageWidth - 50, 48, { align: "right",  });
+    doc.text(`DATA DA ASSEMBLEIA: ${formatarDataPtBr(dt_assembleia)}`, pageWidth - 50, 58, { align: "right" });
+
+    // Linha separadora
+    doc.setLineWidth(0.5);
+    doc.line(40, 65, pageWidth - 40, 65);
+    doc.setLineWidth(0.5);
+    doc.line(40, 85, pageWidth - 40, 85);
+  };
+
   const gerarPDF = () => {
     if (!logoImage) {
       alert("A imagem não foi carregada corretamente.");
@@ -50,32 +79,27 @@ export default function BotaoPDFJspdf() {
     }
   
     // Cria uma nova instância do jsPDF
-    const doc = new jsPDF();
-    let yPosition = 15; // Posição inicial para o conteúdo
-  
-    // Cabeçalho
-    doc.addImage(logoImage, "JPEG", 15, yPosition, 45, 12);
-    doc.setFontSize(15);
-    doc.text("RESULTADO DE ASSEMBLEIA", 70, yPosition + 10);
-    doc.setFontSize(8);
-    doc.text(`DATA: ${today}`, 190, yPosition + 6, {align: "right"});
-    doc.text(`USUÁRIO: FULANO`, 190, yPosition + 10,  {align: "right"});
-    yPosition += 20;
+    const doc = new jsPDF('l', 'pt');
+    let yPosition = 90; // Posição inicial para o conteúdo
   
     // Itera sobre os dados para criar as tabelas para cada grupo
-    data.forEach((assembleia) => {
+    data.forEach((assembleia, indexAssembleia) => {
+      if (indexAssembleia > 0){
+        doc.addPage();
+        yPosition = 90;
+      }
       assembleia.grupos.forEach((grupo, indexGrupo) => {
         if (indexGrupo > 0) {
           doc.addPage();
-          yPosition = 15;
+          yPosition = 90;
         }
+        addHeader(doc, grupo.codigoGrupo, assembleia.dataAssembleia);
         // Cabeçalho da tabela
         const head = [
           [
-            `Grupo ${grupo.codigoGrupo}`,
-            "Quantidade",
-            "Contemplados",
-            `Assembleia ${formatarDataPtBr(assembleia.dataAssembleia)}`
+            `        Tipo contemplação        `,
+            "Contemplados / Suplentes",
+            `Vendedor / Representante`
           ]
         ];
   
@@ -106,22 +130,35 @@ export default function BotaoPDFJspdf() {
         
           if (tipo.tipoLance === "LANCE_OFERTADO_FIXO") {
             body.push([
-              tipo.tipoLance.replace(/_+/g, " "),
-              quantidade.toString(),
-              tipo.lances[0].percentualLance.toFixed(4) + " %"
+              `${tipo.tipoLance.replace(/_+/g, " ")}`,
+              tipo.lances[0].percentualLance.toFixed(4) + " %",
+              `Total de lances ofertados: ${quantidade.toString()}`
             ]);
+          } else if (tipo.tipoLance === "FIXO" || tipo.tipoLance === "SORTEIO" || tipo.tipoLance === "LIVRE") {
+            if(tipo.tipoLance === "FIXO" || tipo.tipoLance === "LIVRE"){
+              body.push([
+                `LANCE ${tipo.tipoLance.replace(/_+/g, " ")}\n \n \n`,
+                `${contemplados}\n \n \n`,
+                `${vendedores}\n _____________________________ \n \nTotal de cotas contempladas: ${quantidade.toString()}`
+              ]);
+            } else {
+              body.push([
+                `${tipo.tipoLance.replace(/_+/g, " ")}\n \n \n`,
+                `${contemplados}\n \n \n`,
+                `${vendedores}\n _____________________________ \n \nTotal de cotas contempladas: ${quantidade.toString()}`
+              ]);
+            }
           } else {
             body.push([
-              tipo.tipoLance.replace(/_+/g, " "),
-              quantidade.toString(),
-              contemplados,
-              vendedores
+              `${tipo.tipoLance.replace(/_+/g, " ")}\n \n \n`,
+              `${contemplados}\n \n \n`,
+              `${vendedores}\n _____________________________ \n \nTotal de lances ofertados: ${quantidade.toString()}`
             ]);
           }
         });
   
         // Adiciona a tabela utilizando o autotable
-        const margem = 5; // Pequena margem nas laterais
+        const margem = 15; // Pequena margem nas laterais
   
         doc.autoTable({
           startY: yPosition,
@@ -129,10 +166,10 @@ export default function BotaoPDFJspdf() {
           body: body,
           styles: {
             fontSize: 8,
-            cellPadding: 3,
+            cellPadding: 10,
             lineWidth: 0, // Remove todas as linhas padrão
           },
-          headStyles: { fillColor: "#133483", textColor: "white", halign: "center", cellPadding: 2, fontSize: 10 },
+          headStyles: { fillColor: "#133483", textColor: "white", halign: "center", cellPadding: 5, fontSize: 10 },
           columnStyles: {
             0: { halign: "center", valign: "middle" },
             1: { halign: "center", valign: "middle" },
@@ -152,6 +189,7 @@ export default function BotaoPDFJspdf() {
             doc.setLineWidth(0.2);
   
             // **Bordas externas completas**
+            /*
             if (row.index === 0) {
               doc.line(xInicio, yTopo, xFim, yTopo); // Linha superior
             }
@@ -163,7 +201,7 @@ export default function BotaoPDFJspdf() {
             }
             if (column.index === table.columns.length - 1) {
               doc.line(xFim, yTopo, xFim, yBaixo); // Borda direita
-            }
+            }*/
   
             // **Linhas horizontais internas**
             if (row.index > 0) {
@@ -184,21 +222,32 @@ export default function BotaoPDFJspdf() {
     });
   
     // Adiciona o rodapé em todas as páginas
-    const marginBottom = 16; // Distância do rodapé da parte inferior da página
+    const marginBottom = 20; // Distância do rodapé da parte inferior da página
     const pageWidth = doc.internal.pageSize.getWidth();
     const pageHeight = doc.internal.pageSize.getHeight();
     const pageCount = doc.internal.getNumberOfPages();
+
+    
+
+    for (let i = 1; i <= pageCount; i++) {
+      doc.setPage(i);
+      doc.setFontSize(8);
+      doc.setFont("helvetica", "normal");
+      // Exibe "Página X de Y" centralizado no topo (por exemplo, na posição y = 10)
+      doc.text(`Página ${i} de ${pageCount}`, pageWidth - 20, 10, { align: "right" });
+    }
   
     for (let i = 1; i <= pageCount; i++) {
       doc.setPage(i);
   
       // Linha do rodapé
       doc.setLineWidth(0.5);
-      doc.line(15, pageHeight - 12, pageWidth - 15, pageHeight - 12);
+      doc.line(40, pageHeight - 20, pageWidth - 40, pageHeight - 20);
   
       // Texto do rodapé alinhado à direita
-      doc.setFontSize(7);
-      doc.text("Groscon Administradora de Consórcios LTDA", pageWidth - 15, pageHeight - marginBottom + 10, { align: "right" });
+      doc.setFontSize(8);
+      doc.setFont("helvetica", "normal");
+      doc.text("Groscon Administradora de Consórcios LTDA", pageWidth - 40, pageHeight - marginBottom + 10, { align: "right" });
     }
   
     // Gera e faz o download do PDF
@@ -219,7 +268,7 @@ export default function BotaoPDFJspdf() {
         margin: "15px"
       }}
     >
-      Baixar JS PDF
+      Baixar JS PDF Paisagem
     </button>
   );
 }
